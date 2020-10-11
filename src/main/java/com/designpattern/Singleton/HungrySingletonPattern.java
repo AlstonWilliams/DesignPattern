@@ -19,13 +19,13 @@ package com.designpattern.Singleton;
  * 在"初始化"这一步，就是对类的静态变量进行初始化，此过程是没有线程安全问题的
  *
  * */
-public class HungrySingleton {
+public class HungrySingletonPattern {
 
-    private HungrySingleton() {}
+    private HungrySingletonPattern() {}
 
-    private static final HungrySingleton instance = new HungrySingleton();
+    private static final HungrySingletonPattern instance = new HungrySingletonPattern();
 
-    public static HungrySingleton getInstance() {
+    public static HungrySingletonPattern getInstance() {
         return instance;
     }
 }

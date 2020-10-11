@@ -21,9 +21,9 @@ package com.designpattern.Prototype;
  * 此时我们来修改A'的B'就不会影响B.
  *
  * */
-public class Prototype implements Cloneable {
+public class PrototypePattern implements Cloneable {
 
-    public Prototype() {
+    public PrototypePattern() {
         System.out.println("Initialize new prototype");
     }
 

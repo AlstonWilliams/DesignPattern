@@ -1,7 +1,7 @@
 package com.designpattern.Factory;
 
-public class SimpleFactory {
+public enum AnimalType {
 
-
+    BIRD, DOG
 
 }
